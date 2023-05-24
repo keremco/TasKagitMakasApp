@@ -4,10 +4,9 @@
     {
         Random _rastgele = new Random();
 
-        string[] _hareketler;
         public string[] Hareketler { get; } = new string[3]
         {
-            "Taş", "Kağıt", "Makas"
+            "Kağıt", "Taş", "Makas"
         };
 
         public string HareketOlustur()
